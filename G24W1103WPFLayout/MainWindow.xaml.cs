@@ -28,9 +28,7 @@ namespace G24W1103WPFLayout
 
         private void OnClickBtn9(object sender, RoutedEventArgs e)
         {
-            Button9.Content = "눌림";
-            Button9.Height = 75;
-            Button9.Width = 75;
+            
         }
     }
 }
