@@ -23,7 +23,14 @@ namespace G24W1103WPFLayout
 
         public void OnButton(object sender, RoutedEventArgs e)
         {
-            MyLabel.Content = "오랜만입니다.";
+            
+        }
+
+        private void OnClickBtn9(object sender, RoutedEventArgs e)
+        {
+            Button9.Content = "눌림";
+            Button9.Height = 75;
+            Button9.Width = 75;
         }
     }
 }
